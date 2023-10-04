@@ -15,6 +15,14 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+:root {
+  --background-dark-color: #121212;
+  --hover-color: #1d1d1d;
+  --white-color: #ffffff;
+  --accent-color: #bea69e;
+  --avatar-bg-color: #e0e0e0;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
