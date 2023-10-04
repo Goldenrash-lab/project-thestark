@@ -12,16 +12,18 @@
 .header-container {
   display: flex;
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1278px) {
   .header-container {
     width: 768px;
   }
-}
-@media only screen and (max-width: 767px) {
+} */
+
+@media only screen and (max-width: 1277px) {
   .header-list {
     display: none;
   }
 }
+
 .header-logo-icon {
   fill: #fff;
 }
@@ -59,4 +61,22 @@
   .toogle-menu {
     display: none;
   }
+}
+.toogle-menu {
+  min-width: 186px;
+  height: 60px;
+  color: #121212;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: uppercase;
+  display: inline-flex;
+  /* padding: 16px 58px; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #fff;
+  border: none;
 }
