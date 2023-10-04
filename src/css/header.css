@@ -5,6 +5,9 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
   display: flex;
+  padding-right: 16px;
+  padding-left: 16px;
+  align-items: center;
 }
 .header-container {
   display: flex;
@@ -13,4 +16,7 @@
   .header-list {
     display: none;
   }
+}
+.header-logo-icon {
+  fill: #fff;
 }
