@@ -181,9 +181,14 @@
   }
 }
 
+
+/* .review-item {
+  min-width: 335px;
+} */
+
 @media only screen and (min-width: 768px) {
   .review-item {
-    min-width: 640px;
+    /* min-width: 640px; */
     margin-right: 32px;
     margin-left: 32px;
   }
@@ -191,7 +196,7 @@
 
 @media only screen and (min-width: 1280px) {
   .review-item {
-    min-width: 530px;
+    /* min-width: 530px; */
     margin: 0;
   }
 }
