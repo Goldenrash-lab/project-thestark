@@ -2,7 +2,37 @@
   <div class="section-about-div">
     <h2 class="about-title">About <span class="colored-text">Us</span></h2>
     <div class="img-pars-us">
-      <div class="about-img"></div>
+      <!-- <div class="about-img"></div> -->
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="
+            /img/about_us/about_desk.png    1x,
+            /img/about_us/about_desk@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="
+            /img/about_us/about_tab.png    1x,
+            /img/about_us/about_tab@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width:320px)"
+          srcset="
+            /img/about_us/about_mob.png    1x,
+            /img/about_us/about_mob@2x.png 2x
+          "
+        />
+
+        <img
+          src="/img/about_us/about_mob.png"
+          alt="photo"
+          class=".about-img-v2"
+          loading="lazy"
+        />
+      </picture>
       <ul class="about-par-list list">
         <li class="about-par-item">
           <p class="par-about">
