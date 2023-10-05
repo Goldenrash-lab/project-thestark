@@ -2,6 +2,12 @@
 .footer .container {
   padding: 40px 20px 20px;
 }
+
+/* @media only screen and (min-width: 375px) {
+  .footer .container {
+    max-width: 768px;
+  }
+} */
 .footer-logo-link {
   display: block;
   padding-bottom: 20px;
@@ -99,7 +105,9 @@
   font-size: 12px;
   line-height: 1.3;
 }
-
+.footer-copyright-link {
+  display: block;
+}
 .footer-copyright-list-item:first-child {
   width: 147px;
 }
