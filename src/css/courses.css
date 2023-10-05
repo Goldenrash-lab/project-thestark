@@ -1,0 +1,43 @@
+.courses {
+    padding: 40px 0;
+    background-color: #121212;
+}
+@media only screen and (min-width: 768px) {
+  .courses {
+    padding: 50px 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    .courses {
+      padding: 75px 0;
+    }
+  }
+.container {
+}
+/* .headline {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 40px;
+} */
+.courses-title {
+
+}
+.courses-text {
+}
+.courses-list {
+    list-style-type: none;
+}
+.courses-item {
+}
+.courses-top-block {
+}
+.courses-link {
+}
+.courses-icon {
+}
+.courses-item-title {
+}
+.courses-item-text {
+}
