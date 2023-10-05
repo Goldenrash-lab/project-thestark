@@ -1,15 +1,15 @@
 .courses {
-    padding: 40px 0;
+    padding-bottom: 80px;
     background-color: #121212;
 }
 @media only screen and (min-width: 768px) {
   .courses {
-    padding: 50px 0;
+    padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
     .courses {
-      padding: 75px 0;
+      padding-bottom: 150px;
     }
   }
 .container {
@@ -95,6 +95,11 @@ background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
 @media only screen and (min-width: 1280px) {
   .courses-item {
   width: 347px;
+}
+}
+@media only screen and (min-width: 1440px) {
+  .courses-item {
+  width: 400px;
 }
 }
 .courses-top-block {
