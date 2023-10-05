@@ -34,7 +34,6 @@ body {
 }
 
 .container {
-
   min-width: 320px;
   max-width: 375px;
   padding: 0 20px;
@@ -59,6 +58,7 @@ body {
     padding: 0 100px;
   }
 }
+
 .background {
   background-image: url(../img/bg/bg_mob.png);
   /* background-repeat: repeat-x; */
@@ -86,4 +86,3 @@ body {
 img {
   display: block;
 }
-
