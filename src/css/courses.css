@@ -129,7 +129,29 @@ letter-spacing: -0.02em;
   background-color: #1D1D1D;
 }
 .courses-icon {
-  fill: #777777;
+  stroke: #777777;
+}
+@media only screen and (min-width: 320px) and (max-width: 1279.98px) {
+  .courses-link:active  {
+    background-color: #BEA69E;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1279.98px) {
+  .courses-link:active .courses-icon  {
+    stroke: #FFFFFF;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .courses-link:hover, .courses-link:focus{
+    background-color: #BEA69E;
+}
+}
+@media only screen and (min-width: 1280px) {
+  .courses-link:hover .courses-icon , .courses-link:focus .courses-icon {
+    stroke: #FFFFFF;
+}
 }
 .courses-item-title {
 font-size: 28px;
