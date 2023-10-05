@@ -1,12 +1,12 @@
 .hero {
-  background-color: #000;
+  /* background-color: #000; */
   margin-top: 20px;
   margin-bottom: 80px;
 }
 .hero__wrapper {
   padding: 40px 20px 0 20px;
   border-radius: 30px;
-  background: #1d1d1d;
+  /* background: #1d1d1d; */
 }
 .hero__title {
   font-size: 40px;
