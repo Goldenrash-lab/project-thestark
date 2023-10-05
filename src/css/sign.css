@@ -5,7 +5,8 @@
 */
 
 .sign-section{
-    padding: 40px 0;
+    /* padding: 40px 0; */
+    margin-bottom: 80px;
     background-color:  var(--background-dark-color);
 }
 
@@ -130,9 +131,8 @@
 */
 
 @media only screen and (min-width: 768px){
-
-    .sign-section .container{
-        max-width: 704px;
+    .sign-section{
+        margin-bottom: 100px;
     }
 
     .sign-text-container {
@@ -191,12 +191,14 @@
   |============================
 */
 @media only screen and (min-width: 1280px) {
+    .sign-section {
+        margin-bottom: 150px;
+    }
+
     .sign-section .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        max-width: 1080px;
     }
 }
 
@@ -207,7 +209,5 @@
   |============================
 */
 @media only screen and (min-width: 1440px) {
-    .sign-section .container{
-        max-width: 1240px;
-    }
+
 }

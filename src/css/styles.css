@@ -32,7 +32,11 @@ body {
   letter-spacing: -0.02em;
   background: #121212;
 }
-
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 .container {
   min-width: 320px;
   max-width: 375px;
