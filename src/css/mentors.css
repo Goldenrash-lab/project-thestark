@@ -9,7 +9,11 @@ background: var(--black, #121212);
 @media screen and (min-width: 1280px){
 .mentors-section{
     margin-bottom: 150px;
-    margin-right: 51px;
+
+
+    /* padding-right: 33px;
+    padding-left: 33px;
+     */
     }}
    
 .ment{
@@ -17,7 +21,7 @@ padding: 16px 0 0 0;
 width: 194px;
     }
 
-.container-mentors{
+/* .container-mentors{
   min-width: 320px;
   max-width: 375px;
 }
@@ -29,7 +33,7 @@ width: 194px;
 @media screen and (min-width: 1280px) {
   .container-team {
     min-width: 1189px;
-  }}
+  }} */
 
 .mentors-title{
     color: #FFF;
@@ -103,6 +107,12 @@ letter-spacing: -1.92px;
         flex-direction: row;
         margin-left: 33px;
         margin-right: 33px;
+    }}
+
+@media screen and (min-width: 1440px){
+    .mentors-list{
+        margin-left: 84px;
+        margin-right: 84px;
     }}
 
 .mentors-link{
