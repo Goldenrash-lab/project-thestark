@@ -89,6 +89,7 @@
 
   border: none;
 }
+
 .button-menu-icon {
   background: none;
   background-color: #121212;
@@ -104,12 +105,17 @@
   justify-content: center;
   background-color: #1d1d1d;
 }
+.header-logo-photo {
+  fill: rgba(190, 166, 158, 0.4);
+}
+
+.header-logo-photo:hover {
+  fill: #bea69e;
+}
 @media only screen and (min-width: 768px) {
   .header-logo-photo-link {
     display: none;
   }
-}
-.header-logo-photo {
 }
 
 .toogle-menu {
@@ -130,6 +136,11 @@
   background: #fff;
   border: none;
 }
+.toogle-menu:focus,
+.toogle-menu:hover {
+  background: #1d1d1d;
+  color: #bea69e;
+}
 @media only screen and (min-width: 1280px) {
   .toogle-menu {
     min-width: 238px;
@@ -147,6 +158,10 @@
   font-size: 14px;
 
   text-transform: uppercase;
+}
+.header-list-link:focus,
+.header-list-link:hover {
+  color: #bea69e;
 }
 .menu-conteiner {
   position: fixed;
@@ -167,17 +182,20 @@
 
 .div-menu-conteiner {
   position: absolute;
-  min-width: 329px;
+  width: 218px;
+
   background-color: #bea69e;
   display: flex;
   flex-direction: column;
   top: 0;
   right: 0;
-  height: 1024px;
+  height: 812px;
 }
 @media only screen and (min-width: 768px) {
   .div-menu-conteiner {
     min-width: 476px;
+
+    height: 1024px;
   }
 }
 .menu-toggle {
@@ -236,17 +254,9 @@
   min-width: 218px;
   width: 100%;
 }
-
-/* @media only screen and not (hover: hover) {
-  .menu-toggle:active {
+@media only screen and (min-width: 768px) {
+  .photo-for-meny-mobail {
+    width: 100%;
+    /* right: 480px; */
   }
-} */
-.background-graphic {
-  /* width: 100%;
-  height: 100%; */
-  background: url(../img/photo-for-meny/Graphic.png);
-  width: 100%;
-  /* height: 100vh; */
-  background-repeat: no-repeat;
-  background-size: cover;
 }
