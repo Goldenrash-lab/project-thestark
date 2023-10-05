@@ -30,8 +30,8 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M19.602 14.771h24.398"></path>
 </symbol>
 <symbol id="icon-arrow-right-up" viewBox="0 0 20 20" fill="none">
-  <path d="M5 15L15 5" stroke="#777777" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8.33325 5H14.9999V11.6667" stroke="#777777" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5 15L15 5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8.33325 5H14.9999V11.6667"  stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 
   </defs>
