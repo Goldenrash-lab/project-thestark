@@ -20,12 +20,95 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-thestark/assets/index-206c09da.js"></script>
-    <link rel="stylesheet" href="/project-thestark/assets/index-9620ce40.css">
+    <script type="module" crossorigin src="/project-thestark/assets/index-097dc794.js"></script>
+    <link rel="stylesheet" href="/project-thestark/assets/index-eeb7f4de.css">
   </head>
   <body>
     <!-- HEADER -->
-    <header><h1>Text</h1></header>
+    <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a class="header-logo" href="">
+        <svg class="header-logo-icon" width="123" height="16">
+          <use href="../img/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+
+      <ul class="header-list">
+        <li class="header-list-item">
+          <a class="header-list-link" href="">About us</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="">Our courses</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="">Our mentors</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="">Reviews</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="">Contacts</a>
+        </li>
+      </ul>
+      <div class="mobail-header-icon">
+        <a class="header-logo-photo-link" href=""
+          ><svg class="header-logo-photo" width="16" height="16">
+            <use href="../img/sprite.svg#icon-header"></use>
+          </svg>
+        </a>
+        <button
+          class="button-header js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="button-menu-icon" width="40" height="28">
+            <use href="../img/sprite.svg#icon-header-button"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <button class="toogle-menu" type="button">Sign up</button>
+  </div>
+</header>
+<!-- Меню контейнер -->
+<div class="menu-conteiner js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="menu-toggle-icon" width="32" height="32">
+      <use href="../img/sprite.svg#icon-x"></use>
+    </svg>
+  </button>
+  <ul class="mobile-menu list">
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link link current-menu" href=""> About us </a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link link" href=""> Our courses </a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link link" href=""> Our mentors </a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link link" href=""> Reviews </a>
+    </li>
+    <li class="mobile-menu-item">
+      <a class="mobile-menu-link link" href=""> Сontacts </a>
+    </li>
+  </ul>
+
+  <img
+    class="photo-for-meny-mobail"
+    srcset="
+      ../img/photo-for-meny/photo-for-meny-mobail@2x.jpg 1x,
+      ../img/photo-for-meny/photo-for-meny-mobail@2x.jpg 2x
+    "
+    src="../img/photo-for-meny/photo-for-meny-mobail.jpg"
+    alt="photo for meny mobail"
+    width="329"
+    loading="lazy"
+  />
+</div>
 
     <main>
       <!-- HERO -->
@@ -133,6 +216,15 @@
 </p>
 
 
+    <!-- Mobail meny -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
+    <!-- Мобільне Меню -->
+    <script defer src="/mobail.js"></script>
   </body>
 </html>
