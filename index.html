@@ -20,8 +20,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-thestark/assets/index-44e6dc78.js"></script>
-    <link rel="stylesheet" href="/project-thestark/assets/index-6f561e92.css">
+    <script type="module" crossorigin src="/project-thestark/assets/index-46989de4.js"></script>
+    <link rel="stylesheet" href="/project-thestark/assets/index-ac34c38c.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -377,8 +377,89 @@
 </section>
 
       <!-- SIGN -->
-      <section>
-  <p class="">sign up section</p>
+      <section class="sign-section section">
+  <div class="container">
+    <div class="sign-text-container">
+      <h2 class="section-title">Sign <span class="colored-text">Up</span></h2>
+      <p class="section-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+
+      <form class="form-wrapper" action="#" name="sign_up_form">
+        <div class="sign-field">
+          <!-- <label class="sign-label" for="user-name"></label> -->
+          <input
+            class="sign-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="sign-field">
+          <!-- <label class="sign-label" for="user-email"></label> -->
+          <input
+            class="sign-input"
+            type="email"
+            pattern="[A-Za-zА-Яа-яЁё]"
+            name="user-email"
+            id="user-email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="sign-message">
+          <!-- <label class="sign-label" for="user-message"></label> -->
+          <textarea
+            class="sign-message-field sign-input"
+            name="user-message"
+            id="user-message"
+            rows="5"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+
+        <button class="sign-submit-btn" type="submit">Send</button>
+
+        <p class="sign-agreement">
+          By clicking on &#34;Send&#34; button, you agree to our
+          <a class="sign-agreement-link" href="">Privacy Policy,</a>
+          <br />
+          and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+
+    <div class="sign-image-container">
+      <picture class="sign-ill">
+        <!-- Desktop 1440px -->
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ../img/sign_up/block_desk1440.png    1x,
+            ../img/sign_up/block_desk1440@2x.png 2x
+          "
+        />
+        <!-- Desktop -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/sign_up/block_desk.png    1x,
+            ../img/sign_up/block_desk@2x.png 2x
+          "
+        />
+        <img
+          class="sign-ill"
+          src="../img/sign_up/block_desk.png"
+          alt="camera"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
 
       <!-- REVIEWS -->
