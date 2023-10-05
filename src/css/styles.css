@@ -30,6 +30,7 @@ body {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
+  background: #121212;
 }
 
 .container {
@@ -37,4 +38,16 @@ body {
   padding: 0 20px;
   margin: 0 auto;
   background-color: #121212;
+}
+
+.background {
+  background-image: url(../img/bg/bg_mob.png);
+  /* background-repeat: repeat-x; */
+  background-size: contain;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1277px) {
+  .header-container {
+    padding: 0 32px;
+  }
 }

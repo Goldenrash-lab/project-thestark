@@ -1,0 +1,70 @@
+.hero {
+  /* background-color: #000; */
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.hero__wrapper {
+  padding: 40px 20px 0 20px;
+  border-radius: 30px;
+  /* background: #1d1d1d; */
+}
+.hero__title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1; /* 110% */
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
+}
+.hero__title-span {
+  color: var(--accent-color);
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+}
+.hero__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28; /* 128.571% */
+  letter-spacing: 0.02em;
+
+  margin-bottom: 40px;
+}
+.hero__students-text {
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.hero__students-svg {
+  fill: #fff;
+}
+
+.hero__reviews-svg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+}
+.hero__reviews-svg {
+  fill: transparent;
+  stroke: #000;
+}
+.hero__reviews-title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28; /* 128.571% */
+  letter-spacing: 0.04em;
+}
+.hero__reviews-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12; /* 112.5% */
+  letter-spacing: 0.04em;
+}
