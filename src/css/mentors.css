@@ -9,32 +9,12 @@ background: var(--black, #121212);
 @media screen and (min-width: 1280px){
 .mentors-section{
     margin-bottom: 150px;
-
-
-    /* padding-right: 33px;
-    padding-left: 33px;
-     */
     }}
    
 .ment{
 padding: 16px 0 0 0;
 width: 194px;
     }
-
-/* .container-mentors{
-  min-width: 320px;
-  max-width: 375px;
-}
-@media screen and (min-width: 768px) {
-  .container-team {
-    min-width: 704px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container-team {
-    min-width: 1189px;
-  }} */
-
 .mentors-title{
     color: #FFF;
 font-size: 28px;
