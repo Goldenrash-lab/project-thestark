@@ -44,9 +44,3 @@ body {
   /* background-repeat: repeat-x; */
   background-size: contain;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 1277px) {
-  .header-container {
-    padding: 0 32px;
-  }
-}
