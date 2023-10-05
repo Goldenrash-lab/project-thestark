@@ -34,10 +34,12 @@ body {
 }
 
 .container {
+
   min-width: 320px;
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+  background-color: #121212;
 }
 @media only screen and (min-width: 768px) {
   .container {
