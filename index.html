@@ -20,8 +20,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-thestark/assets/index-d4feb370.js"></script>
-    <link rel="stylesheet" href="/project-thestark/assets/index-24dc6d3a.css">
+    <script type="module" crossorigin src="/project-thestark/assets/index-2a37e5ab.js"></script>
+    <link rel="stylesheet" href="/project-thestark/assets/index-108bb100.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -32,31 +32,31 @@
     <nav class="header-nav">
       <a class="header-logo" href="">
         <svg class="header-logo-icon" width="123" height="16">
-          <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-logo"></use>
+          <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-logo"></use>
         </svg>
       </a>
 
       <ul class="header-list">
         <li class="header-list-item">
-          <a class="header-list-link" href="">About us</a>
+          <a class="header-list-link" href="#about">About us</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Our courses</a>
+          <a class="header-list-link" href="#courses">Our courses</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Our mentors</a>
+          <a class="header-list-link" href="#mentors">Our mentors</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Reviews</a>
+          <a class="header-list-link" href="#reviews">Reviews</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Contacts</a>
+          <a class="header-list-link" href="#footer">Contacts</a>
         </li>
       </ul>
       <div class="mobail-header-icon">
         <a class="header-logo-photo-link" href=""
           ><svg class="header-logo-photo" width="16" height="16">
-            <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-header"></use>
+            <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-header"></use>
           </svg>
         </a>
         <button
@@ -65,7 +65,7 @@
           aria-controls="mobile-menu"
         >
           <svg class="button-menu-icon" width="40" height="28">
-            <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-header-button"></use>
+            <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-header-button"></use>
           </svg>
         </button>
       </div>
@@ -79,7 +79,7 @@
   <div class="div-menu-conteiner">
     <button class="menu-toggle js-close-menu">
       <svg class="menu-toggle-icon" width="32" height="32">
-        <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-x"></use>
+        <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-x"></use>
       </svg>
     </button>
     <ul class="mobile-menu list">
@@ -99,21 +99,37 @@
         <a class="mobile-menu-link link" href=""> Сontacts </a>
       </li>
     </ul>
+    <div class="meny-img">
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="
+            ../img/mobile_menu/mob_menu_tab.png    1x,
+            ../img/mobile_menu/mob_menu_tab@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width:320px)"
+          srcset="
+            ../img/mobile_menu/mob_menu_mob.png    1x,
+            ../img/mobile_menu/mob_menu_mob@2x.png 2x
+          "
+        />
 
-    <img
-      class="photo-for-meny-mobail"
-      srcset="/project-thestark/assets/mob_menu_mob-03ee0232.jpg 1x, /project-thestark/assets/mob_menu_mob@2x-256fe7b7.jpg 2x"
-      src="/project-thestark/assets/mob_menu_mob-03ee0232.jpg"
-      alt="photo for meny mobail"
-      width="329"
-      loading="lazy"
-    />
+        <img
+          src="../img/mobile_menu/mob_menu_mob.png"
+          alt="camera on a milky background"
+          class="meny-photo-img"
+          loading="lazy"
+        />
+      </picture>
+    </div>
   </div>
 </div>
 
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <section id="hero" class="hero">
   <div class="container">
     <div class="hero__wrapper">
       <div class="hero__box">
@@ -186,7 +202,7 @@
               <a class="hero__students-link" href="#reviews">
                 <span class="hero__students-text">Our happy students</span>
                 <svg class="hero__students-svg" width="18" height="8.66">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-arrow-right"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right"></use>
                 </svg>
               </a>
             </li>
@@ -195,7 +211,7 @@
             <li class="hero__reviews-item">
               <div class="hero__reviews-svg-box">
                 <svg class="hero__reviews-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </div>
             </li>
@@ -235,7 +251,7 @@
 
       </div>
       <!-- ADVERTISEMENT -->
-      <section class="adverts">
+      <section id="adverts" class="adverts">
   <div class="adverts-div">
     <div class="adverts_inner">
       <p class="adverts_text">
@@ -252,88 +268,124 @@
 </section>
 
       <!-- ABOUT US -->
-      <section class="container">
+      <section id="about" class="section-about container">
   <div class="section-about-div">
     <h2 class="about-title">About <span class="colored-us">Us</span></h2>
     <div class="img-pars-us">
-      <div class="about-img"></div>
-      <div class="list-about-div">
-        <ul class="about-par-list list">
-          <li class="about-par-item">
-            <p class="par-about">
-              Our photography school is designed to teach you everything you
-              need to know about this magical art. Regardless of your experience
-              or skill level, we offer a wide range of courses to suit your
-              needs and interests. Our teaching team consists of experienced
-              photographers who have many years of experience in this field.
-              They strive not only to share their knowledge, but also to inspire
-              you to develop and express your unique creativity.
-            </p>
-          </li>
-          <li class="about-par-item">
-            <p class="par-about">
-              Our courses cover a wide range of topics, from the basics of
-              photography and equipment use to professional image processing and
-              creating impressive compositions. You will have the opportunity to
-              learn the technical aspects of photography, discover your own
-              style and develop your own visual language.
-            </p>
-          </li>
-        </ul>
-      </div>
+
+      <!-- <div class="about-img"></div> -->
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="/project-thestark/assets/about_desk-5ed9bcb5.png 1x, /project-thestark/assets/about_desk@2x-b4a419d9.png 2x"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/project-thestark/assets/about_tab-a27e9f89.png 1x, /project-thestark/assets/about_tab@2x-99f717c0.png 2x"
+        />
+        <source
+          media="(min-width:320px)"
+          srcset="/project-thestark/assets/about_mob-7e56e139.png 1x, /project-thestark/assets/about_mob@2x-ee686349.png 2x"
+        />
+
+        <img
+          src="/project-thestark/assets/about_mob-7e56e139.png"
+          alt="photo"
+          class=".about-img-v2"
+          loading="lazy"
+        />
+      </picture>
+      <ul class="about-par-list list">
+        <li class="about-par-item">
+          <p class="par-about">
+            Our photography school is designed to teach you everything you need
+            to know about this magical art. Regardless of your experience or
+            skill level, we offer a wide range of courses to suit your needs and
+            interests. Our teaching team consists of experienced photographers
+            who have many years of experience in this field. They strive not
+            only to share their knowledge, but also to inspire you to develop
+            and express your unique creativity.
+          </p>
+        </li>
+        <li class="about-par-item">
+          <p class="par-about">
+            Our courses cover a wide range of topics, from the basics of
+            photography and equipment use to professional image processing and
+            creating impressive compositions. You will have the opportunity to
+            learn the technical aspects of photography, discover your own style
+            and develop your own visual language.
+          </p>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
 
       <!-- OUR COURSES -->
-      <section class="courses">
-    <div class="container">
-        <div class="headline">
-            <h2 class="courses-title">Our <span class="courses-accent">Courses</span></h2>
-            <p class="courses-text">At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless of your experience or skill level, we have courses to suit your needs and goals.</p>
-        </div>
-        <ol class="courses-list">
-            <li class="courses-item">
-                <div class="courses-top-block">
-                    <span class="number">01</span>
-                    <a href="" class="courses-link">
-                        <svg class="courses-icon" width="20" height="20">
-                          <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-arrow-right-up"></use>
-                        </svg>
-                    </a>
-                </div>
-                <h3 class="courses-item-title">Basics of photography</h3>
-                <p class="courses-item-text">During this course, you will be able to familiarize yourself with different types of cameras, learn the basics of composition.</p>
-            </li>
-            <li class="courses-item">
-                <div class="courses-top-block">
-                    <span class="number">02</span>
-                    <a href="" class="courses-link">
-                        <svg class="courses-icon" width="20" height="20">
-                          <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-arrow-right-up"></use>
-                        </svg>
-                    </a>
-                </div>
-                <h3 class="courses-item-title">Landscape photography</h3>
-                <p class="courses-item-text">In this course, you'll learn how to choose the right angles, frame landscapes, and create depth and perspective in your images.</p>
-            </li>
-            <li class="courses-item">
-                <div class="courses-top-block">
-                    <span class="number">03</span>
-                    <a href="" class="courses-link">
-                        <svg class="courses-icon" width="20" height="20">
-                          <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-arrow-right-up"></use>
-                        </svg>
-                    </a>
-                </div>
-                <h3 class="courses-item-title">Landscape photography</h3>
-                <p class="courses-item-text">During this course, you will learn to choose the right lighting, reproduce the mood and expressions on the faces of the models.</p>
-            </li>
-        </ol>
+      <section id="courses" class="courses">
+  <div class="container">
+    <div class="headline">
+      <h2 class="courses-title">
+        Our <span class="courses-accent">Courses</span>
+      </h2>
+      <p class="courses-text">
+        At our photography school, we offer a variety of courses that cover all
+        aspects of this fascinating art. Regardless of your experience or skill
+        level, we have courses to suit your needs and goals.
+      </p>
     </div>
+    <ol class="courses-list">
+      <li class="courses-item">
+        <div class="courses-top-block">
+          <span class="number">01</span>
+          <a href="" class="courses-link">
+            <svg class="courses-icon" width="20" height="20">
+              <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right-up"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="courses-item-title">Basics of photography</h3>
+        <p class="courses-item-text">
+          During this course, you will be able to familiarize yourself with
+          different types of cameras, learn the basics of composition.
+        </p>
+      </li>
+      <li class="courses-item">
+        <div class="courses-top-block">
+          <span class="number">02</span>
+          <a href="" class="courses-link">
+            <svg class="courses-icon" width="20" height="20">
+              <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right-up"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="courses-item-title">Landscape photography</h3>
+        <p class="courses-item-text">
+          In this course, you'll learn how to choose the right angles, frame
+          landscapes, and create depth and perspective in your images.
+        </p>
+      </li>
+      <li class="courses-item">
+        <div class="courses-top-block">
+          <span class="number">03</span>
+          <a href="" class="courses-link">
+            <svg class="courses-icon" width="20" height="20">
+              <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-arrow-right-up"></use>
+            </svg>
+          </a>
+        </div>
+        <h3 class="courses-item-title">Landscape photography</h3>
+        <p class="courses-item-text">
+          During this course, you will learn to choose the right lighting,
+          reproduce the mood and expressions on the faces of the models.
+        </p>
+      </li>
+    </ol>
+  </div>
 </section>
+
       <!-- OUR MENTORS -->
-      <section class="mentors-section">
+      <section id="mentors" class="mentors-section">
   <div class="container">
     <h2 class="mentors-title">Our<span class="mentors-span"> Mentors</span></h2>
     <ul class="mentors-list list">
@@ -413,7 +465,7 @@
 </section>
 
       <!-- SIGN -->
-      <section class="sign-section section">
+      <section id="sign" class="sign-section section">
   <div class="container">
     <div class="sign-text-container">
       <h2 class="section-title">Sign <span class="colored-text">Up</span></h2>
@@ -515,27 +567,27 @@
             <ul class="stars-list list">
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
             </ul>
@@ -565,27 +617,27 @@
             <ul class="stars-list list">
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
               <li class="stars-item">
                 <svg class="stars-svg" width="20" height="20">
-                  <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-star"></use>
+                  <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-star"></use>
                 </svg>
               </li>
             </ul>
@@ -605,14 +657,16 @@
 
     </main>
     <!-- FOOTER -->
-    <footer class="footer">
+    
+<footer id="footer" class="footer">
   <img class="footer-line" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAAACCAYAAACjWJw4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAfSURBVHgB7cABEQAABAQwtNA/6Ovhtk6yBcArUwC8c07oAxpDyNprAAAAAElFTkSuQmCC" alt="Line" />
+
   <div class="container">
     <div class="footer-tablet-container">
       <div class="footer-logo">
         <a class="footer-logo-link link" href="../index.html">
           <svg class="footer-logo-icon" width="123" height="16">
-            <use href="/project-thestark/assets/sprite-dc2fd77d.svg#icon-logo"></use>
+            <use href="/project-thestark/assets/sprite-1769a44c.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="footer-contact-list">
