@@ -37,6 +37,13 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
+  min-width: 335px;
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .review-item {
+    min-width: 280px;
+  }
 }
 
 .reviewers-text {
@@ -136,7 +143,7 @@
 
 @media only screen and (min-width: 1280px) {
   .stars-list {
-    margin-left: 183px;
+    margin-left: 159px;
   }
 }
 
@@ -172,10 +179,6 @@
   .stars-names {
     flex-direction: row;
   }
-}
-
-.review-item {
-  min-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
