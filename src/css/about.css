@@ -1,0 +1,145 @@
+.section-about {
+  margin-bottom: 80px;
+  background-color: var(--background-dark-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .section-about {
+    margin-bottom: 100px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .section-about {
+    margin-bottom: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+.section-about-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-about-div {
+    row-gap: 50px;
+  }
+}
+
+.about-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-title {
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -1.92px;
+  }
+}
+
+.colored-text {
+  color: var(--accent-color);
+}
+
+@media only screen and (min-width: 1280px) {
+  .img-pars-us {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+.about-img {
+  width: 335px;
+  height: 209px;
+  margin-bottom: 40px;
+  background-image: url(../img/about_us/about_mob.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 375px) and (min-resolution: 192dpi) {
+  .about-img {
+    background-image: url(../img/about_us/about_mob@2x.png);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-img {
+    height: 340px;
+    width: 704px;
+    margin-bottom: 40px;
+    background-image: url(../img/about_us/about_tab.png);
+  }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .about-img {
+    background-image: url(../img/about_us/about_tab@2x.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-img {
+    width: 488px;
+    height: 340px;
+    margin-bottom: 0;
+    background-image: url(../img/about_us/about_desk.png);
+  }
+}
+
+@media (min-width: 1280px) and (min-resolution: 192dpi) {
+  .about-img {
+    background-image: url(../img/about_us/about_desk@2x.png);
+  }
+}
+
+.about-par-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-par-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.about-par-item {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-par-item {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+}
+
+.par-about {
+  min-width: 280px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .par-about {
+    width: 200px;
+  }
+}
