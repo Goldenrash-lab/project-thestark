@@ -176,7 +176,7 @@
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
   margin-bottom: 164px;
-  max-width: 265px;
+  max-width: 260px;
 }
 @media only screen and (min-width: 768px) {
   .courses-item-title {
