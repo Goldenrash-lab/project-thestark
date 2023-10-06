@@ -1,4 +1,4 @@
-.adverts {
+.line {
   padding: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -6,16 +6,16 @@
   margin-bottom: 80px;
 }
 @media only screen and (min-width: 768px) {
-  .adverts {
+  .line {
     margin-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .adverts {
+  .line {
     margin-bottom: 150px;
   }
 }
-.adverts-div {
+.line-div {
   overflow: hidden;
   color: #bea69e;
   font-size: 28px;
@@ -28,27 +28,27 @@
   background-color: #121212;
 }
 @media only screen and (min-width: 768px) {
-  .adverts-div {
+  .line-div {
     font-size: 40px;
 
     line-height: 1.25;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .adverts-div {
+  .line-div {
     font-size: 59px;
 
     line-height: 1.08;
   }
 }
-.adverts_text_span {
+.line_text_span {
   color: var(--white-color);
 }
-.adverts_inner {
+.line_inner {
   display: flex;
 }
 
-.adverts_text {
+.line_text {
   flex-shrink: 0;
   margin: 0;
   padding: 20px;
@@ -60,7 +60,7 @@
   animation-iteration-count: infinite;
 }
 @media only screen and (min-width: 768px) {
-  .adverts_text {
+  .line_text {
     padding: 24px;
   }
 }
