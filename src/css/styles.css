@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  background: #121212;
+  background: var(--background-dark-color);
 }
 ol {
   margin-top: 0;

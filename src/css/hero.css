@@ -6,7 +6,7 @@
 .hero__wrapper {
   padding: 40px 20px 0 20px;
   border-radius: 30px;
-  background: #1d1d1d;
+  background: var(--hover-color);
   flex-direction: column;
 }
 .hero__title {
