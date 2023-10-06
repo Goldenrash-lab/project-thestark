@@ -33,7 +33,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1.12px;
+  letter-spacing: 0.04em;
   margin-bottom: 40px;
 }
 
@@ -41,7 +41,6 @@
   .about-title {
     font-size: 48px;
     line-height: 1.13;
-    letter-spacing: -1.92px;
     margin-bottom: 50px;
   }
 }
@@ -57,7 +56,7 @@
     gap: 40px;
   }
 }
-..about-img-v2 {
+.about-img-v2 {
   margin: 0;
 }
 .about-img {
@@ -141,14 +140,12 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28;
-  letter-spacing: -0.28px;
 }
 
 @media only screen and (min-width: 768px) {
   .about-par-item {
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.32px;
     width: 280px;
   }
 }
