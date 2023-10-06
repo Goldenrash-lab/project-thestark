@@ -1,30 +1,31 @@
-.section-about {
+.section-about-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   margin-bottom: 80px;
-  background-color: var(--background-dark-color);
+  padding: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-about {
+  .section-about-div {
     margin-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .section-about {
+  .section-about-div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 150px;
+    gap: 40px;
   }
-}
-
-.section-about-div {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .section-about-div {
-    row-gap: 50px;
+    margin-bottom: 150px;
   }
 }
 
@@ -33,6 +34,7 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -1.12px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -40,10 +42,11 @@
     font-size: 48px;
     line-height: 1.13;
     letter-spacing: -1.92px;
+    margin-bottom: 50px;
   }
 }
 
-.colored-text {
+.colored-us {
   color: var(--accent-color);
 }
 
@@ -54,14 +57,25 @@
     gap: 40px;
   }
 }
-
+..about-img-v2 {
+  margin: 0;
+}
 .about-img {
+  width: 100%;
   width: 335px;
   height: 209px;
   margin-bottom: 40px;
   background-image: url(../img/about_us/about_mob.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .about-img {
+    min-width: 280px;
+    background-size: 280px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 375px) and (min-resolution: 192dpi) {
@@ -105,12 +119,20 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  margin-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .about-par-list {
     flex-direction: row;
     gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-par-list {
+    flex-direction: row;
+    gap: 20px;
   }
 }
 
@@ -127,6 +149,13 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.32px;
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .par-about {
+    width: 268px;
   }
 }
 
@@ -137,5 +166,11 @@
 @media only screen and (min-width: 1280px) {
   .par-about {
     width: 200px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .img-pars-us {
+    width: 280px;
   }
 }

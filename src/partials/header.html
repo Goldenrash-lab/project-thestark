@@ -9,19 +9,19 @@
 
       <ul class="header-list">
         <li class="header-list-item">
-          <a class="header-list-link" href="">About us</a>
+          <a class="header-list-link" href="#about">About us</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Our courses</a>
+          <a class="header-list-link" href="#courses">Our courses</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Our mentors</a>
+          <a class="header-list-link" href="#mentors">Our mentors</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Reviews</a>
+          <a class="header-list-link" href="#reviews">Reviews</a>
         </li>
         <li class="header-list-item">
-          <a class="header-list-link" href="">Contacts</a>
+          <a class="header-list-link" href="#footer">Contacts</a>
         </li>
       </ul>
       <div class="mobail-header-icon">
@@ -70,17 +70,30 @@
         <a class="mobile-menu-link link" href=""> Сontacts </a>
       </li>
     </ul>
+    <div class="meny-img">
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="
+            ../img/mobile_menu/mob_menu_tab.png    1x,
+            ../img/mobile_menu/mob_menu_tab@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width:320px)"
+          srcset="
+            ../img/mobile_menu/mob_menu_mob.png    1x,
+            ../img/mobile_menu/mob_menu_mob@2x.png 2x
+          "
+        />
 
-    <img
-      class="photo-for-meny-mobail"
-      srcset="
-        /img/mobile_menu/mob_menu_mob.jpg    1x,
-        /img/mobile_menu/mob_menu_mob@2x.jpg 2x
-      "
-      src="/img/mobile_menu/mob_menu_mob.jpg"
-      alt="photo for meny mobail"
-      width="329"
-      loading="lazy"
-    />
+        <img
+          src="../img/mobile_menu/mob_menu_mob.png"
+          alt="camera on a milky background"
+          class="meny-photo-img"
+          loading="lazy"
+        />
+      </picture>
+    </div>
   </div>
 </div>
