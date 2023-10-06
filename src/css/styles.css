@@ -14,7 +14,10 @@
 @import url('./sign.css');
 @import url('./reviews.css');
 @import url('./footer.css');
-@import url('../../node_modules/slick-carousel/slick/slick.css');
+
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --background-dark-color: #121212;
