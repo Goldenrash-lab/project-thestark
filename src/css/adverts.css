@@ -17,7 +17,7 @@
 }
 .line-div {
   overflow: hidden;
-  color: #bea69e;
+  color: var(--accent-color);
   font-size: 28px;
   width: 100%;
   font-weight: 400;
@@ -25,7 +25,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   margin: 0 auto;
-  background-color: #121212;
+  background-color: var(--background-dark-color);
 }
 @media only screen and (min-width: 768px) {
   .line-div {
