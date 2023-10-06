@@ -1,6 +1,6 @@
 .courses {
   padding-bottom: 80px;
-  background-color: #121212;
+  background-color:var(--background-dark-color);
 }
 @media only screen and (min-width: 768px) {
   .courses {
@@ -47,7 +47,7 @@
   }
 }
 .courses-accent {
-  color: #bea69e;
+  color: var(--accent-color);
 }
 .courses-text {
   font-size: 14px;
@@ -141,7 +141,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #1d1d1d;
+  background-color: var(--hover-color);
   margin-left: auto;
 }
 .courses-icon {
@@ -149,26 +149,26 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 1279.98px) {
   .courses-link:active {
-    background-color: #bea69e;
+    background-color: var(--accent-color);
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1279.98px) {
   .courses-link:active .courses-icon {
-    stroke: #ffffff;
+    stroke: var(--white-color);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .courses-link:hover,
   .courses-link:focus {
-    background-color: #bea69e;
+    background-color: var(--accent-color);
   }
 }
 @media only screen and (min-width: 1280px) {
   .courses-link:hover .courses-icon,
   .courses-link:focus .courses-icon {
-    stroke: #ffffff;
+    stroke: var(--white-color);
   }
 }
 .courses-item-title {
