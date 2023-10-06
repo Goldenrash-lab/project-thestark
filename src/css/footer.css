@@ -5,6 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 40px;
 }
 .footer .container {
   background-color: transparent;
@@ -13,6 +15,7 @@
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(/img/bg/bg_tablet.png);
+    padding-top: 50px;
   }
 }
 
@@ -47,13 +50,13 @@
   }
 }
 
-.footer-line {
-  /* stroke: var(--white-color); */
+/* .footer-line {
+ 
   max-width: 1440px;
   width: 100%;
   height: 2px;
   margin-bottom: 40px;
-}
+} */
 .footer-logo-icon {
   display: block;
   fill: var(--white-color);
