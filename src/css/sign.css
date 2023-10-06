@@ -5,9 +5,10 @@
 */
 
 .sign-section{
+    background-color:  var(--background-dark-color);
+
     /* padding: 40px 0; */
     margin-bottom: 80px;
-    background-color:  var(--background-dark-color);
 }
 
 .sign-section .section-title{
@@ -83,8 +84,8 @@
     display: block;
     width: 100%;
 
-    color: #121212;
-    background: #FFF;
+    color: var(--hover-color);
+    background: var(--white-color);
 
     font-size: 16px;
     font-weight: 700;
@@ -96,7 +97,7 @@
     cursor: pointer;
 
     padding: 14px 0;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -156,9 +157,9 @@
         margin-bottom: 40px;
     }
 
-    .sign-section .sign-input{
+    /* .sign-section .sign-input{
         height: 60px;
-    }
+    } */
 
     .sign-section .sign-input,  .sign-section .sign-message-field{
         height: 100%;
