@@ -1,21 +1,21 @@
-import $ from "jquery"
-import "slick-carousel"
+import $ from 'jquery';
+import 'slick-carousel';
+import 'slick-carousel/slick/slick.css';
 
-
-$(".review-list").slick({
-    arrows: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    autoplay: true,
-    // fade: true,
-    // cssEase: 'linear',
-    centerMode: false,
-    mobileFirst: true,
+$('.review-list').slick({
+  arrows: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  autoplay: true,
+  // fade: true,
+  // cssEase: 'linear',
+  centerMode: false,
+  mobileFirst: true,
   responsive: [
-      { 
-          breakpoint: 1279,
-          settings: "unslick",
-    }
-]
+    {
+      breakpoint: 1279,
+      settings: 'unslick',
+    },
+  ],
 });
