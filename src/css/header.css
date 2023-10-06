@@ -173,12 +173,17 @@
   height: 100%;
   background-color: rgba(18, 18, 18, 0.4);
 
-  transform: translateX(100%);
-  transition: transform 300ms ease-in;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 300ms ease-in, visibility 300ms ease-in;
+  transition-delay: 300ms;
 }
 .menu-conteiner.is-open {
-  transform: translateX(0);
-  transition-delay: 150ms;
+  opacity: 1;
+  pointer-events: initial;
+  visibility: visible;
+  transition-delay: 0ms;
 }
 
 .div-menu-conteiner {
@@ -191,6 +196,13 @@
   top: 0;
   right: 0;
   justify-content: space-between;
+  transform: translateX(100%);
+  transition: transform 300ms ease;
+  transition-delay: 0ms;
+}
+.menu-conteiner.is-open .div-menu-conteiner {
+  transform: translateX(0);
+  transition-delay: 300ms;
 }
 @media only screen and (min-width: 768px) {
   .div-menu-conteiner {
