@@ -39,6 +39,9 @@
   padding: 20px;
   min-width: 335px;
 }
+.review-item:last-child {
+  display: none;
+}
 
 @media (min-width: 320px) and (max-width: 374.98px) {
   .review-item {
@@ -200,6 +203,9 @@
 
 @media only screen and (min-width: 768px) {
   .review-item {
+
+    margin-right: 32px;
+
     margin-left: 32px;
   }
 }
