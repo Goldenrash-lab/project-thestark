@@ -195,3 +195,7 @@
     margin: 0;
   }
 }
+
+.stars-svg {
+  display: block;
+}
