@@ -71,7 +71,7 @@
 
 .img-title-job {
   display: inline-flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 10px;
 }
@@ -155,10 +155,6 @@
   fill: #414141;
 }
 
-.review-item:last-child {
-  display: none;
-}
-
 @media only screen and (min-width: 1280px) {
   .review-item:last-child {
     display: flex;
@@ -181,7 +177,6 @@
   }
 }
 
-
 /* .review-item {
   min-width: 335px;
 } */
@@ -189,8 +184,8 @@
 @media only screen and (min-width: 768px) {
   .review-item {
     /* min-width: 640px; */
-    margin-right: 32px;
-    margin-left: 32px;
+    /* margin-right: 32px;
+    margin-left: 32px; */
   }
 }
 
