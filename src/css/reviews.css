@@ -181,7 +181,6 @@
   }
 }
 
-
 /* .review-item {
   min-width: 335px;
 } */
@@ -199,4 +198,8 @@
     /* min-width: 530px; */
     margin: 0;
   }
+}
+
+.stars-svg {
+  display: block;
 }
