@@ -15,6 +15,10 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background-dark-color: #121212;
   --hover-color: #1d1d1d;
