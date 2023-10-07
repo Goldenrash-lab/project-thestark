@@ -1,3 +1,47 @@
+import Swiper from 'swiper';
+import { Pagination } from 'swiper/modules';
+// import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+const li = document.getElementsByClassName("test");
+console.log(li);
+
+// window.addEventListener('resize', function () {
+//   if (window.innerWidth <= 1279) {
+//     // 0...768
+//     li.classList.add('class-name');
+//   } else {
+//     // 769...Inf
+//     li.className.remove('class-name');
+//   }
+// });
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+ const swiper = new Swiper('.swiper', {
+  modules: [Pagination],
+   pagination: {
+    el: '.swiper-pagination',
+  },
+  loop: true,
+   autoplay: true,
+      speed: 400,
+      breakpoints: {
+        1279: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+    }
+  }
+  
+});
+
+})
+
+
 const btnUp = {
   el: document.querySelector('.btn-up'),
   show() {
