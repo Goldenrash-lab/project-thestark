@@ -1,26 +1,14 @@
+
 import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
 // import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const li = document.getElementsByClassName("test");
-console.log(li);
-
-// window.addEventListener('resize', function () {
-//   if (window.innerWidth <= 1279) {
-//     // 0...768
-//     li.classList.add('class-name');
-//   } else {
-//     // 769...Inf
-//     li.className.remove('class-name');
-//   }
-// });
 
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
 
  const swiper = new Swiper('.swiper', {
   modules: [Pagination],
@@ -39,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 });
 
-})
+
 
 
 const btnUp = {
