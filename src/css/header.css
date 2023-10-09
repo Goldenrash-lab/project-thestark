@@ -89,7 +89,11 @@
 
   border: none;
 }
-
+@media only screen and (min-width: 768px) {
+  .button-menu-icon {
+    width: 40px;
+  }
+}
 .button-menu-icon {
   background: none;
   background-color: var(--background-dark-color);
