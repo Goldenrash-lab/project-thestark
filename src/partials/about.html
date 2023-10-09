@@ -1,8 +1,15 @@
-<section id="about" class="section-about container">
-  <div class="section-about-div">
+<section id="about" class="section-about">
+  <div class="section-about-div container">
     <h2 class="about-title">About <span class="colored-us">Us</span></h2>
     <div class="img-pars-us">
       <picture>
+        <source
+          media="(min-width:1440px)"
+          srcset="
+            /img/about_us/about_1440.png    1x,
+            /img/about_us/about_1440@2x.png 2x
+          "
+        />
         <source
           media="(min-width:1280px)"
           srcset="
@@ -28,7 +35,7 @@
         <img
           src="/img/about_us/about_mob.png"
           alt="photo"
-          class=".about-img-v2"
+          class="about-img-v2"
           loading="lazy"
         />
       </picture>
