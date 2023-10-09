@@ -19,8 +19,8 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--background-dark-color);
   display: flex;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 19px;
+  padding-left: 19px;
   align-items: center;
 }
 @media only screen and (min-width: 768px) {
@@ -30,8 +30,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .header-nav {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 49px;
+    padding-left: 49px;
   }
 }
 .header-container {
@@ -58,14 +58,24 @@
   align-items: center;
   gap: 28px;
 }
+.header-logo {
+  height: 16px;
+}
 @media only screen and (max-width: 1279px) {
   .header-list {
     display: none;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .header-list {
+    margin-left: 97px;
+    gap: 32px;
+  }
+}
 @media only screen and (min-width: 1440px) {
   .header-list {
     gap: 40px;
+    margin-left: 209px;
   }
 }
 .header-logo-icon {

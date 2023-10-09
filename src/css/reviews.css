@@ -76,11 +76,13 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 2px;
 }
 
 @media only screen and (min-width: 768px) {
   .img-title-job {
     align-items: flex-start;
+    margin-bottom: 0;
   }
 }
 
@@ -157,21 +159,8 @@
   fill: #414141;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1279.98px) {
-  /* .review-item:last-child {
-    display: none;
-  } */
-}
-
-@media only screen and (min-width: 1280px) {
-  .review-item:last-child {
-    display: flex;
-  }
-}
-
 .review-list {
   display: flex;
-  /* gap: 20px; */
 }
 
 .stars-names {
@@ -189,6 +178,12 @@
   display: block;
 }
 
+@media only screen and (min-width: 768px) {
+  .stars-svg {
+    width: 20px;
+    height: 20px;
+  }
+}
 @media only screen and (min-width: 1440px) {
   .reviewers-text {
     width: 570px;
@@ -197,7 +192,7 @@
 
 @media only screen and (min-width: 1440px) {
   .stars-list {
-    margin-left: 239px;
+    margin-left: auto;
   }
 }
 
@@ -222,19 +217,25 @@
 
 @media only screen and (min-width: 375px) {
   .swiper {
-    height: 275px;
+    height: 244px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
   .swiper {
     height: 196px;
+    width: 640px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .swiper {
     height: 216px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .swiper {
+    height: 196px;
   }
 }
 

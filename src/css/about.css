@@ -1,10 +1,20 @@
+.section-about {
+  padding-bottom: 97px;
+}
+@media only screen and (min-width: 768px) {
+  .section-about {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section-about {
+    padding-bottom: 150px;
+  }
+}
 .section-about-div {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-
-  margin-bottom: 80px;
-  padding: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -33,7 +43,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
 
@@ -52,7 +62,7 @@
 @media only screen and (min-width: 1280px) {
   .img-pars-us {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
   }
 }
@@ -66,57 +76,9 @@
 .about-img-v2 {
   margin: 0;
 }
-.about-img {
-  width: 100%;
-  width: 335px;
-  height: 209px;
-  margin-bottom: 40px;
-  background-image: url(../img/about_us/about_mob.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media (min-width: 320px) and (max-width: 374.98px) {
-  .about-img {
-    min-width: 280px;
-    background-size: 280px;
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 375px) and (min-resolution: 192dpi) {
-  .about-img {
-    background-image: url(../img/about_us/about_mob@2x.png);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .about-img {
-    height: 340px;
-    width: 704px;
-    margin-bottom: 40px;
-    background-image: url(../img/about_us/about_tab.png);
-  }
-}
-
-@media (min-width: 768px) and (min-resolution: 192dpi) {
-  .about-img {
-    background-image: url(../img/about_us/about_tab@2x.png);
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .about-img {
-    width: 488px;
-    height: 340px;
-    margin-bottom: 0;
-    background-image: url(../img/about_us/about_desk.png);
-  }
-}
-
-@media (min-width: 1280px) and (min-resolution: 192dpi) {
-  .about-img {
-    background-image: url(../img/about_us/about_desk@2x.png);
+@media only screen and (min-width: 1440px) {
+  .about-img-v2 {
+    min-width: 544px;
   }
 }
 
@@ -132,18 +94,25 @@
   .about-par-list {
     flex-direction: row;
     gap: 40px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-par-list {
+    margin-top: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .about-par-list {
-    gap: 20px;
+    gap: 15px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .about-par-list {
     gap: 40px;
+    margin-top: 60px;
   }
 }
 
