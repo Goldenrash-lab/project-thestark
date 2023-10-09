@@ -90,7 +90,7 @@
   border: none;
 }
 @media only screen and (min-width: 768px) {
-  .button-header {
+  .button-menu-icon {
     width: 40px;
   }
 }
