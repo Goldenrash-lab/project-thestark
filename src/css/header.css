@@ -47,11 +47,7 @@
     padding: 0 32px;
   }
 }
-/* @media only screen and (min-width: 768px) and (max-width: 1278px) {
-  .header-container {
-    width: 768px;
-  }
-} */
+
 .header-list {
   margin-left: auto;
   display: inline-flex;
@@ -143,7 +139,7 @@
   line-height: 1.55;
   text-transform: uppercase;
   display: inline-flex;
-  /* padding: 16px 58px; */
+
   justify-content: center;
   align-items: center;
   border-radius: 12px;
