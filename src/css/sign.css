@@ -1,13 +1,6 @@
-/**
-  |============================
-  | Mobile styles
-  |============================
-*/
-
 .sign-section {
   background-color: var(--background-dark-color);
 
-  /* padding: 40px 0; */
   margin-bottom: 80px;
 }
 
@@ -126,12 +119,6 @@
   }
 }
 
-/**
-  |============================
-  | Tablet styles
-  |============================
-*/
-
 @media only screen and (min-width: 768px) {
   .sign-section {
     margin-bottom: 98px;
@@ -186,11 +173,6 @@
   }
 }
 
-/**
-  |============================
-  | Desktop 1280px styles
-  |============================
-*/
 @media only screen and (min-width: 1280px) {
   .sign-section {
     margin-bottom: 150px;
@@ -203,10 +185,5 @@
   }
 }
 
-/**
-  |============================
-  | Desktop 1440px styles
-  |============================
-*/
 @media only screen and (min-width: 1440px) {
 }
