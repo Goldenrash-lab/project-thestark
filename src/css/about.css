@@ -131,20 +131,11 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .about-par-item {
+  .about-par-item:nth-child(1) {
     width: 330px;
   }
-}
-
-@media only screen and (min-width: 1280px) {
-  .par-about {
-    width: 268px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .par-about {
-    width: 330px;
+  .about-par-item:nth-child(2) {
+    width: 276px;
   }
 }
 
