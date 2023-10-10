@@ -77,6 +77,11 @@
 .header-logo-icon {
   fill: var(--white-color);
 }
+.header-logo-icon:hover,
+.header-logo-icon:focus {
+  fill: var(--accent-color);
+}
+
 .mobail-header-icon {
   margin-left: auto;
   display: inline-flex;
